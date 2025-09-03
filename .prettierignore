@@ -1,0 +1,6 @@
+node_modules/
+dist/
+index.html
+globalComponents.d.ts
+autoImport.d.ts
+pnpm-lock.yaml

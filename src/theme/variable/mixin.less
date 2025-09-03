@@ -1,0 +1,27 @@
+.flex(@dir:row, @wrap: nowrap, @jc:flex-start, @ai:stretch) {
+    display: flex;
+    flex-flow: @dir @wrap;
+    justify-content: @jc;
+    align-items: @ai;
+}
+
+.hover_cursor {
+    cursor: pointer;
+    &:hover {
+        color: var(--ibc-primary-color);
+    }
+}
+
+.popover_c {
+    color: var(--ibc-font-color-65);
+    font-size: var(--ibc-font-size-normal);
+    line-height: 16px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.primary_color {
+    color: var(--ibc-primary-color);
+}

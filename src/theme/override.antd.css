@@ -1,0 +1,194 @@
+.ant-table-cell::before {
+    width: 0 !important;
+}
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    font-weight: 400 !important;
+}
+.ant-picker {
+    padding: 4px 8px 4px !important;
+}
+.ant-picker-focused {
+    border-color: var(--ibc-primary-color) !important;
+}
+
+.ant-table-thead tr th {
+    font-size: var(--ibc-font-size-sub-title);
+    color: var(--ibc-text-normal) !important;
+    background: #ffffff !important;
+}
+
+.ant-table-column-title {
+    font-size: var(--ibc-font-size-sub-title);
+    font-weight: 400;
+    color: var(--ibc-text-normal);
+}
+
+.ant-table-thead th.ant-table-column-has-sorters:hover {
+    background: #fff !important;
+}
+.ant-table-tbody > tr.ant-table-row:hover > td {
+    background: #f0f4ff !important;
+}
+.ant-table-column-title {
+    white-space: nowrap;
+}
+
+.ant-dropdown-open .button_token_icon .button_title_default {
+    color: var(--ibc-text-third);
+}
+.ant-dropdown-open .selected_color_default {
+    color: var(--ibc-text-third) !important;
+}
+
+@media screen and (max-width: 630px) {
+    .ant-picker-panels {
+        flex-direction: column;
+    }
+}
+
+.ant-anchor-link::before {
+    width: 0px !important;
+}
+
+.ant-message-notice-content {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-width: 1px 4px 1px 1px;
+    border-style: solid;
+    border-color: #3d50ff;
+    color: white;
+}
+
+.ant-anchor-link-title-active {
+    width: 30px !important;
+}
+
+.ibc_selected_border:hover .ant-card-bordered {
+    border: 1px solid #3d50ff;
+}
+
+.ibc_selected_title:hover .list_item_value {
+    color: #3d50ff;
+}
+
+.ibc_selected_title:hover .card_content_value {
+    color: #3d50ff;
+}
+
+.ant-select-item-option-selected {
+    background-color: rgba(61, 80, 255, 0.04);
+}
+
+.ant-select-item-option-selected .ant-select-item-option-content {
+    color: #3d50ff;
+}
+
+.ant-select-item-option:hover {
+    color: #3d50ff;
+}
+
+.ant-popover {
+    z-index: 1100 !important;
+}
+.ant-popover-arrow {
+    bottom: -4px !important;
+    height: 10px !important;
+}
+.ant-popover-arrow > .ant-popover-arrow-content {
+    background: #3d50ff;
+}
+.ant-popover-content .ant-popover-inner {
+    box-shadow: 0px 2px 8px 0px #d9deec;
+    border: 1px solid #d9dfee;
+}
+.ant-popover-inner .ant-popover-inner-content {
+    padding: 8px 12px;
+    color: var(--ibc-text-second);
+    word-break: break-all;
+}
+
+.ant-select-open .ant-select-arrow {
+    color: var(--ibc-primary-color);
+    transform: rotate(180deg);
+}
+
+.ant-calendar-date:hover {
+    background-color: #3d50ff;
+    color: #ffffff;
+}
+
+.ant-calendar-input-wrap {
+    display: none;
+}
+
+.ant-calendar-time-picker-btn {
+    display: none !important;
+}
+
+.ant-dropdown {
+    z-index: 1020;
+}
+
+.ant-tooltip {
+    max-width: 300px !important;
+}
+
+@media screen and (max-width: 380px) {
+    .ant-tooltip {
+        max-width: 250px !important;
+    }
+}
+
+.ant-tooltip .ant-tooltip-inner {
+    color: var(--ibc-font-color-65);
+    background: #fff;
+    box-shadow: 0px 2px 8px 0px #d9deec;
+    border: 1px solid #d9dfee;
+}
+.ant-tooltip .ant-tooltip-inner-content {
+    padding: 8px 12px;
+}
+.ant-tooltip-arrow {
+    bottom: -10px !important;
+    height: 15px !important;
+    width: 18px !important;
+}
+.ant-tooltip .ant-tooltip-arrow-content {
+    background: #3d50ff;
+}
+
+.ant-pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.ant-pagination li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 24px;
+    height: 24px !important;
+    line-height: 24px !important;
+}
+.ant-pagination-item {
+    border: none !important;
+}
+.ant-pagination-item a {
+    font-family: GolosUIWebRegular;
+    color: var(--ibc-text-third) !important;
+}
+.ant-pagination-item a:hover {
+    color: var(--ibc-primary-color) !important;
+}
+.ant-pagination-item-active {
+    border: 1px solid var(--ibc-primary-color) !important;
+}
+.ant-pagination-item-active a {
+    color: var(--ibc-primary-color) !important;
+}
+.ant-pagination-options {
+    display: none !important;
+}
+
+.ant-tabs-nav {
+    margin-bottom: 0 !important;
+}
